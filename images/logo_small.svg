@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2017 Maret Eiland.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<svg width="88px" height="16px" viewBox="0 0 88 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>HENNE</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="500" font-family="Saira-SemiBold, Saira" letter-spacing="3.80999994" font-size="22">
+        <g id="footer" transform="translate(-459.000000, -59.000000)" fill="#FFFFFF">
+            <g id="Logo-&amp;-text">
+                <g transform="translate(352.000000, 50.000000)">
+                    <g id="Logo-Copy" transform="translate(106.000000, 0.000000)">
+                        <text id="HENNE">
+                            <tspan x="0.179555587" y="25">HENN</tspan>
+                            <tspan x="76.4475554" y="25" letter-spacing="2.90888906">E</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

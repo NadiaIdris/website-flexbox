@@ -1,0 +1,255 @@
+/*
+ * Copyright 2017 Maret Eiland.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*removing browser default styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #F2F2F2;
+}
+
+body {
+    font-family: Saira, sans-serif;
+    font-size: 1em;
+    color: #000000;
+    text-align: center;
+    max-width: 1024px;
+    background: white;
+    margin: auto;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0.7em;
+    font-family: Saira , sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+
+}
+header ul li a {
+    text-decoration: none;
+    color: #7D7C7D;
+}
+
+li a.active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    font-weight: 300;
+}
+
+li a:hover {
+    color: #B6B6B6;
+}
+
+h1 {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 1.4em;
+    font-weight: 200;
+    color: #7D7C7D;
+    padding-top: 3.9em;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 0.3em;
+    padding-bottom: 0.28em;
+}
+
+h3 {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+/*Formating paragraph text*/
+p {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 0.85em;
+}
+
+.justify-container {
+    margin:auto;
+    width: 58%;
+    text-align: justify;
+    padding-top: 1.8em;
+    padding-bottom: 3.2em;
+}
+
+.contact-container {
+    text-align: left;
+    width: 40%;
+    margin: auto;
+    padding-top: 3.45em;
+    padding-bottom: 3em;
+}
+
+/*Button*/
+
+.button-location {
+    margin-top: 2em;
+    margin-bottom: 3.3em;
+}
+
+.button {
+    background-color: #1B3BBF;
+    color: white;
+    border: none;
+    padding: 0.4em 0.7em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: Saira, sans-serif;
+}
+.button:hover {
+    background: #0E2DAF;
+}
+
+header.line {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/*Paddings*/
+
+header {
+    padding-top: 2.3em;
+    padding-bottom: 1.2em;
+}
+
+nav {
+    padding: 0.8em;
+}
+
+main {
+    padding-top: 0;
+}
+
+.image {
+    padding-bottom: 1.6em;
+}
+
+
+/*Index page - text over image*/
+.promo-content {
+    position: relative;
+    margin-bottom: 1.6em;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 0;
+    bottom: 7px;
+    left: 545px;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10em;
+    padding-left: 3em;
+    padding-right: 2.5em;
+}
+
+.text-over-image p {
+    color: white;
+    font-size: 0.88em;
+
+}
+
+/*Using Flexbox on Watches page*/
+.watch-grid {
+    display:flex;
+    flex-flow:row wrap;
+    margin-top: 54px;
+    justify-content: center;
+}
+.watch {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 314px;
+}
+
+.watch-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.watch-info p{
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.watch-name-and-price {
+    text-align: left;
+}
+
+.buy-button {
+    display: flex;
+    width: 72px;
+    height: 35px;
+    background-color: #0B6AD1;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    border-radius: 3px;
+}
+.buy-button p{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*Footer*/
+
+footer {
+    background: #867154;
+    padding: 3.3em;
+    margin: 0;
+}
+
+footer p {
+    font-family: Roboto, sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #A4A4A4;
+    line-height: 130%;
+}
+
+footer p a {
+    text-decoration:none;
+    color: #A4A4A4;
+}
+
+footer img {
+    padding-top: 0.4em;
+    padding-bottom: 1.3em;
+}
+
