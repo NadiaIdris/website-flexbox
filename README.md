@@ -1,6 +1,15 @@
 # website-flexbox
 This is a one page webpage I created for learning purposes. It uses Flexbox on the `header` and CSS Grid on the `main` section.
 
+## Articles
+I wrote 2 articles on Flexbox:
+
+1. [Flexbox: Getting started (Part 1/2)](https://medium.com/@maret.idris/flexbox-getting-started-part-1-2-2e101815d405)
+Fun places to learn Flexbox.
+2. [Flexbox: Building a navigation bar (Part 2/2)](https://medium.com/@maret.idris/flexbox-building-a-navigation-part-2-2-6cc58b9d4173)
+Breakdown of a navigation bar I built using Flexbox.
+
+
 ## Images
 Here is a list of the owners of all of the watch images. 
 
