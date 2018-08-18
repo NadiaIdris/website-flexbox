@@ -59,8 +59,12 @@ nav {
     margin: 1.5em 0 0 5%;
 }
 
+/*
+   More info on block, inline-block, inline
+   https://www.w3schools.com/css/css_inline-block.asp
+   */
 header ul li {
-    display: inline-block;
+    display: inline;
     padding: 0 1.4em 0 0;
     font-size: 0.9em;
 }
