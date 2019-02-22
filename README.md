@@ -1,6 +1,10 @@
 # website-flexbox
 This is a one page webpage I created for learning purposes. It uses Flexbox on the `header` and CSS Grid on the `main` section.
 
+That's how the webpage looks like:
+
+<img src="images/webpage.png" width="600">
+
 ## Articles
 I wrote 2 articles on Flexbox:
 
