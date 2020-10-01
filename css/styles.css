@@ -107,6 +107,8 @@ li a:hover {
 
 .watch-info {
     margin-top: 13px;
+    text-align: center;
+    font-weight:bold;
 }
 
 .watch-info p {
